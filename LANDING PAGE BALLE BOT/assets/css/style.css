@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu__item{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal__texto{
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}
+
+.conteudo-principal__titilo{
+    font-family: 'Righteous';
+    font-size: 64px;
+    font-weight: 400;
+    color: #FFF2E7;
+}
+
+.conteudo-principal__subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ECD6C4;
+}
+
+.conteudo-principal__btn{
+    background-color: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #2F2325;
+}
+
+.conteudo-principal__btn:hover{
+background-color: rgba(236, 214, 196, 0.53);
+
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario__titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous';
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF2E7;
+}
+
+.conteudo-secundario__paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ECD6C4;
+}
+
+.rodape{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 40px;
+}
+
+.rodape-img{
+    display: block;
+    margin: 0 auto;
+    height: 48px;
+}
+
